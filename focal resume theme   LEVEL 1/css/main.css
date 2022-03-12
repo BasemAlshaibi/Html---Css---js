@@ -1,0 +1,464 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.warper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.fLeft {
+    float: left;
+}
+
+
+/* بدء قسم الهيدر */
+
+.header {
+    background-image: url(../images/main-img.jpg);
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 50px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 5px;
+    color: white;
+}
+
+.header button {
+    margin-top: 25px;
+    background: none;
+    padding: 8px 20px;
+    border: 2px solid white;
+    color: white;
+}
+
+
+/* .header img {
+    max-width: 100%;
+    height: auto;
+} */
+
+
+/* نهاية قسم الهيدر */
+
+
+/* بداية شريط القوائم   */
+
+.mune {
+    background-color: #252e30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mune .logo {
+    float: left;
+    margin-top: 7px;
+}
+
+.mune .logo h2 {
+    display: inline;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mune .list-mune {
+    float: right;
+}
+
+.mune ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.mune ul li {
+    float: left;
+}
+
+.mune ul li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #f2f2f1
+}
+
+.mune ul li a:hover {
+    background-color: #676d6e;
+}
+
+
+/* نهاية شريط القوائم   */
+
+
+/* بداية مربعات الهوايات والقيم والاهداف  */
+
+.Values,
+.Goals,
+.Hobbies {
+    width: 33.3333%;
+    float: left;
+    margin: 25px 0;
+}
+
+.Hob-val-go h2 {
+    color: #566366;
+}
+
+.Hob-val-go p {
+    color: #595f61;
+}
+
+
+/* نهاية مربعات الهوايات والقيم والاهداف  */
+
+
+/* بداية قسم About  */
+
+.about {
+    background-color: #f2f2f1;
+}
+
+.about .side-img {
+    width: 33.33%;
+    float: left;
+}
+
+.about .side-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about .side-about {
+    float: left;
+    width: 66.66%;
+    padding: 50px 50px 0;
+}
+
+.about h2,
+h3 {
+    color: #566366;
+}
+
+.about p {
+    color: #595f61;
+}
+
+.skills-box>div {
+    float: left;
+    width: 50%;
+}
+
+
+/* نهاية  قسم About  */
+
+
+/* بداية  قسم المواهب  */
+
+.MySkills {
+    height: 350px;
+}
+
+.MySkills .MySkills-side {
+    padding-right: 25px;
+}
+
+.MySkills .MySkills-side,
+.progress-side {
+    float: left;
+    width: 50%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.MySkills h2 {
+    color: #566366;
+}
+
+.MySkills p {
+    color: #595f61;
+    line-height: 1.5;
+}
+
+.MySkills button {
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 10px 20px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.MySkills .progress-side {
+    padding-left: 25px;
+}
+
+.MySkills .progress-side .divCon {
+    height: 25px;
+    background-color: #f2f2f1;
+}
+
+.MySkills .progress-side .divCon .divProg {
+    height: 25px;
+    background-color: #2ecc71;
+}
+
+
+/* نهاية  قسم المواهب  */
+
+
+/* بداية  قسم الرسيوم  */
+
+.resume {
+    height: 300px;
+    background-color: #f2f2f1;
+    text-align: center;
+    padding: 40px;
+}
+
+.resume h2 {
+    color: #414546;
+}
+
+.resume p {
+    color: #595f61;
+    line-height: 1.5;
+}
+
+.resume button {
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 10px 20px;
+    background-color: #f2f2f1;
+    margin-top: 15px;
+}
+
+
+/* نهاية  قسم الرسيوم  */
+
+
+/* بداية  قسم الماي ايدكوشن  */
+
+.MyEducation {
+    margin-top: 30px;
+}
+
+.MyEducation .EdLSide {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.MyEducation .GDDRiSide {
+    float: left;
+    width: 50%;
+    padding-top: 70px;
+}
+
+.MyEducation p {
+    color: #595f61;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+.MyEducation h2,
+h4 {
+    color: #353a3b;
+}
+
+.MyEducation h5 {
+    color: #919191;
+}
+
+.MyEducation .GDDRiSide h4,
+h5 {
+    margin: 0 0 8px 0;
+}
+
+.MyEducation .GDDRiSide h5 {
+    margin: 0 0 8px 0;
+}
+
+.MyEducation .GDDRiSide .GreenYearbox {
+    display: inline-block;
+    padding: 2px;
+    background-color: #2ecc71;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.MyEducation .GDDRiSide hr {
+    color: #566366;
+    border-style: dotted;
+    height: .5;
+}
+
+
+/* نهاية  قسم الماي ايدكوشن  */
+
+
+/* بداية  قسم قالوا عنا   */
+
+.SayAboutUs {
+    background-color: #f2f2f1;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SayAboutUs p {
+    color: #464747;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.SayAboutUs h4 {
+    color: 6b7679
+}
+
+.SayAboutUs span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #2ecc71;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.SayAboutUs .warper span:first-of-type {
+    background-color: #2ecc71;
+}
+
+
+/* نهاية  قسم قالوا عنا   */
+
+
+/* Portfolio بداية   قسم    */
+
+.Portfolio .Portfolio-text {
+    padding: 30px 0;
+    text-align: center
+}
+
+.Portfolio .Portfolio-text h2 {
+    color: #566366;
+}
+
+.Portfolio .Portfolio-text p {
+    color: #676d6e;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.Portfolio .Portfolio-img {
+    text-align: center
+}
+
+.Portfolio .Portfolio-img .img-box {
+    float: left;
+    width: 31%;
+    margin: 0 3.5% 30px 0;
+    height: 250px;
+}
+
+.Portfolio .Portfolio-img .img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Portfolio نهاية   قسم  */
+
+
+/* contact me بداية   قسم  */
+
+.ContactME {
+    background-color: #252e30;
+    padding-top: 50px;
+}
+
+.ContactME .warper>div {
+    float: left;
+    width: 50%;
+}
+
+.ContactME .ContactSide h2 {
+    color: rgb(238, 232, 220);
+}
+
+.ContactME .ContactSide p {
+    color: rgb(151, 149, 146);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.ContactME .FormsSide {
+    padding-left: 75px;
+    padding-top: 35px;
+}
+
+.ContactME .FormsSide span {
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.ContactME .FormsSide input[type=text] {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #4b5456;
+    color: #fff;
+}
+
+.ContactME .FormsSide textarea {
+    width: 100%;
+    height: 150px;
+    border: none;
+    background-color: #4b5456;
+    color: #fff;
+}
+
+.ContactME .FormsSide button {
+    padding: 10px 20px;
+    background-color: #191f21;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+
+/* contact me نهاية   قسم  */
+
+
+/* الفوتر  بداية   قسم  */
+
+.footer {
+    background-color: #191f21;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* الفوتر نهاية   قسم  */

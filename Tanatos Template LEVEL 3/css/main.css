@@ -1,0 +1,600 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.Container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+.overlay {
+    background-color: rgba(48, 54, 62, .88);
+    height: 100%;
+    width: 100%;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.RestUL {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+
+/* start Header Section   */
+
+.Header {
+    background: url(../images/Header.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.Header .Container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+.Header .LogoMune {
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.Header .LogoMune span {
+    padding-right: 15px;
+}
+
+.Header .intro {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.Header .intro h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.Header .intro h1 span {
+    color: #f7600e;
+}
+
+.Header .intro p {
+    line-height: 1.55;
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+.Header .intro button {
+    background: transparent;
+    border: 1px solid #7e7f81;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 150px;
+    color: #ffffff;
+    font-weight: 400;
+    transition: all .5s ease-in-out;
+}
+
+.Header .intro button:hover {
+    background: #f7600e;
+    border: 1px solid #f7600e;
+}
+
+.Header .arrow i {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-bottom: 25px;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50px;
+    line-height: 25px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.Header .arrow i:hover {
+    background: #f7600e;
+    border: 1px solid #f7600e;
+}
+
+
+/* End Header Section   */
+
+
+/* start  service   */
+
+.service {
+    margin: 50px 0;
+}
+
+.service .Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service .Container .serviceBoxes {
+    text-align: center;
+    width: 22%;
+}
+
+.service .serviceBoxes i {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border: 1px solid #f7600e;
+    border-radius: 50%;
+    color: #f7600e;
+    font-size: 50px;
+    margin-bottom: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.service .serviceBoxes i:hover {
+    color: #ffffff;
+    background-color: #f7600e;
+}
+
+.service .serviceBoxes h4 {
+    font-weight: 600;
+    color: #3b434c;
+}
+
+.service .serviceBoxes p {
+    font-weight: 300;
+    color: #3b434c;
+    line-height: 1.5;
+}
+
+
+/* End   service   */
+
+
+/* start  SUBSCRIBE Section */
+
+.SUBSCRIBE {
+    background: url(../images/subs.jpg);
+    background-size: cover;
+    height: 250px;
+    position: relative;
+}
+
+.SUBSCRIBE .controls {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.SUBSCRIBE .controls button {
+    background: #f7600e;
+    border: 1px solid #f7600e;
+    border-radius: 10px;
+    padding: 8px 20px;
+    width: 200px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.SUBSCRIBE .controls input {
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+
+/* End  SUBSCRIBE Section */
+
+
+/* start  ourWork Section */
+
+.ourWork {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.ourWork h4 {
+    font-weight: 700;
+    color: #3b434c;
+    font-size: 25px;
+}
+
+.ourWork h4 span {
+    color: #f7600e;
+}
+
+.ourWork p {
+    font-weight: 300;
+    color: #3b434c;
+    line-height: 1.5;
+}
+
+.ourWork .ourWorkBoxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ourWork .ourWorkBoxes>div {
+    width: 32%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ourWork .ourWorkBoxes div img {
+    width: 100%;
+    height: 100%;
+}
+
+.ourWork .ourWorkBoxes .overly {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 96, 14, .7);
+    z-index: 5;
+    display: none;
+}
+
+.ourWork .ourWorkBoxes div:hover .overly {
+    display: block;
+}
+
+.ourWork .ourWorkBoxes .overly div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.ourWork .ourWorkBoxes .overly h5 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.ourWork .ourWorkBoxes .overly p {
+    color: #ffffff;
+}
+
+.ourWork .ourWorkBoxes .overly button {
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.ourWork .ourWorkBoxes .overly button:hover {
+    color: #f7600e;
+    background: #ffffff;
+}
+
+.ourWork .ShowMore {
+    color: #272323;
+    background: transparent;
+    border: 1px solid #5a5454;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+
+/* End  ourWork Section */
+
+
+/* start what say    Section */
+
+.WhatSay {
+    background: url(../images/testi-bg.jpg);
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.WhatSay .content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.WhatSay .content img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.WhatSay .content p {
+    line-height: 1.55;
+    margin-top: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.WhatSay .content span {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+/* End  what say  Section */
+
+
+/* Start  Our team  Section */
+
+.OURTeam {
+    height: 500px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.OURTeam h4 {
+    font-weight: 700;
+    color: #3b434c;
+    font-size: 25px;
+}
+
+.OURTeam h4 span {
+    color: #f7600e;
+}
+
+.OURTeam p {
+    font-weight: 300;
+    color: #3b434c;
+    line-height: 1.5;
+}
+
+.OURTeam .Boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.OURTeam .Boxes>div {
+    width: 22%;
+}
+
+.OURTeam .Boxes>div img {
+    width: 100%;
+    border: 1px solid #c4c6c9;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all .5s ease-in-out;
+}
+
+.OURTeam .Boxes>div h4 {
+    color: #9da1a5;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.OURTeam .Boxes>div .icon i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #9da1a5;
+    color: #fff;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-right: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.OURTeam .Boxes>div p {
+    color: #9da1a5;
+    margin-top: 10px;
+    font-size: 14px;
+    transition: all .5s ease-in-out;
+}
+
+.OURTeam .Boxes>div:hover img {
+    filter: none;
+}
+
+.OURTeam .Boxes>div:hover h4 {
+    color: #3b434c;
+}
+
+.OURTeam .Boxes>div:hover p {
+    color: #3b434c;
+}
+
+.OURTeam .Boxes>div:hover .icon i:nth-child(1) {
+    background-color: #3b5998;
+}
+
+.OURTeam .Boxes>div:hover .icon i:nth-child(2) {
+    background-color: #1da1f2;
+}
+
+.OURTeam .Boxes>div:hover .icon i:nth-child(3) {
+    background-color: #833ab4;
+}
+
+
+/* End  Our team  Section */
+
+
+/* Start  contact  Section */
+
+.Contact {
+    background: url(../images/saywhate.jpg);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Contact .Container {
+    padding: 40px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Contact h4 {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.Contact h4 span {
+    color: #f7600e;
+}
+
+.Contact p {
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.Contact .controls .email {
+    float: left;
+    width: 48%;
+    margin-bottom: 15px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.Contact .controls .Subject {
+    float: right;
+    width: 48%;
+    margin-bottom: 15px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.Contact .controls textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    height: 150px;
+}
+
+.Contact .controls button {
+    background: transparent;
+    border: 1px solid #7e7f81;
+    border-radius: 10px;
+    padding: 8px 35px;
+    width: 200px;
+    color: #ffffff;
+    font-weight: 400;
+    float: left;
+    transition: all .5s ease-in-out;
+}
+
+.Contact .controls button:hover {
+    background: #f7600e;
+    border: 1px solid #f7600e;
+}
+
+.Contact .controls .Icons {
+    float: right;
+}
+
+.Contact .controls .Icons i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.Contact .controls .Icons i:nth-child(1) {
+    background-color: #3b5998;
+}
+
+.Contact .controls .Icons i:nth-child(2) {
+    background-color: #1da1f2;
+}
+
+.Contact .controls .Icons i:nth-child(3) {
+    background-color: #833ab4;
+}
+
+
+/* End  contact  Section */
+
+
+/* start  footer  Section */
+
+.footer {
+    background-color: #3b434c;
+    height: 75px;
+    color: #ffffff;
+    line-height: 75px;
+    font-size: 13px;
+}
+
+
+/* End  footer  Section */
